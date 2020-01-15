@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LFM CAM FACE", "LFM CAM FACE.csproj", "{5D9161D1-7CC7-4156-A40C-46E5F94A768B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D9161D1-7CC7-4156-A40C-46E5F94A768B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D9161D1-7CC7-4156-A40C-46E5F94A768B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D9161D1-7CC7-4156-A40C-46E5F94A768B}.Debug|x64.ActiveCfg = Debug|x64
+		{5D9161D1-7CC7-4156-A40C-46E5F94A768B}.Debug|x64.Build.0 = Debug|x64
+		{5D9161D1-7CC7-4156-A40C-46E5F94A768B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D9161D1-7CC7-4156-A40C-46E5F94A768B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D9161D1-7CC7-4156-A40C-46E5F94A768B}.Release|x64.ActiveCfg = Release|x64
+		{5D9161D1-7CC7-4156-A40C-46E5F94A768B}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DCF053F3-8CB0-41C1-A521-2EE177FF8039}
+	EndGlobalSection
+EndGlobal

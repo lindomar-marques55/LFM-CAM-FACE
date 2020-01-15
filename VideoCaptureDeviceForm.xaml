@@ -1,0 +1,25 @@
+﻿<Window x:Class="LFM_CAM_FACE.VideoCaptureDeviceForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LFM_CAM_FACE"
+        mc:Ignorable="d"
+        Title="VideoCaptureDeviceForm" Height="136.179" Width="331.486" Loaded="Window_Loaded">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="500*"/>
+            <ColumnDefinition Width="500*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="400*"/>
+            <RowDefinition Height="500*"/>
+            <RowDefinition Height="500*"/>
+        </Grid.RowDefinitions>
+        <Label Grid.ColumnSpan="2" Content="Selecione um dispositivo local de captura de video" Margin="1" FontSize="14"/>
+        <ComboBox x:Name="devicesCombo" Grid.ColumnSpan="2" Margin="1" Grid.Row="1" SelectionChanged="devicesCombo_SelectionChanged"/>
+        <Button Content="OK" x:Name="okButton" Margin="1" Grid.Row="2" Click="okButton_Click" />
+        <Button Content="CANCELA" x:Name="cancelButton" Grid.Column="1" Margin="1" Grid.Row="2" />
+
+    </Grid>
+</Window>
